@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+
+
+body{
+   background-color: #838996
+}
+.container{
+    
+    position: relative;
+    max-width:1000px;
+    min-height:1000px;
+    margin: auto;
+    top: 50px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0 35px 55px grba(0,0,0,1);
+    width: 80%;
+}
+.left_side{
+    position:relative;
+    background:#003147;
+    padding:40px;
+
+   
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+.imBx img{
+    position: relative;
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+}
+.web{
+    color:white;
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: 20px;
+    font-family: serif; 
+    padding: 10px;
+}
+.contactinfo ul li{
+    list-style: none;
+    padding:5px;
+    color:white;
+    bottom: 100px;
+    bottom: 200%;
+}
+.title{
+    color: white;
+    margin-top: 200px;
+}
+ ul li{
+     list-style: none;
+     color: white;
+     margin-left: 20px;
+     
+ }
+ .skill{
+     color: white;
+     margin-top: 100px; 
+     margin-bottom: 20px;
+ }
+
+ a{
+     text-align: center;
+     color: #ffff;
+     margin-left: 20px;
+     border:2px solid white;
+     border-radius: 50px;
+     padding: 5px;
+     background-color: #00bfff;
+     top: 20px;
+ }
+
+ h2{
+   font-size: 25px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .right_side{
+     padding: 0 30px;
+     margin: 15px;
+     
+ }
+ol li{
+   list-style: none;
+   color: black;
+   margin-left:1em;
+   padding: 2px;
+ }
+
+
+/* .edu p{
+   padding: 2px;
+   margin: 2px;
+}
+ */
+
+
+ .data{
+     line-height: 25px;
+ }
+
+ 
+
+
+ 
